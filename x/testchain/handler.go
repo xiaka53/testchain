@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"githup.com/xiaka53/testchain/x/testchain/keeper"
-	"githup.com/xiaka53/testchain/x/testchain/types"
+	"github.com/xiaka53/testchain/x/testchain/keeper"
+	"github.com/xiaka53/testchain/x/testchain/types"
 )
 
 // NewHandler ...

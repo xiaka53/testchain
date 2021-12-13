@@ -1,4 +1,4 @@
-module githup.com/xiaka53/testchain
+module github.com/xiaka53/testchain
 
 go 1.16
 

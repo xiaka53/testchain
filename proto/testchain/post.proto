@@ -1,7 +1,7 @@
 syntax = "proto3";
 package xiaka53.testchain.testchain;
 
-option go_package = "githup.com/xiaka53/testchain/x/testchain/types";
+option go_package = "github.com/xiaka53/testchain/x/testchain/types";
 
 message Post {
 

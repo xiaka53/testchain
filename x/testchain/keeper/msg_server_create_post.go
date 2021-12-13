@@ -4,7 +4,7 @@ import (
 	"context"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"githup.com/xiaka53/testchain/x/testchain/types"
+	"github.com/xiaka53/testchain/x/testchain/types"
 )
 
 func (k msgServer) CreatePost(goCtx context.Context, msg *types.MsgCreatePost) (*types.MsgCreatePostResponse, error) {

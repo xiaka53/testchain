@@ -8,7 +8,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/client/tx"
-	"githup.com/xiaka53/testchain/x/testchain/types"
+	"github.com/xiaka53/testchain/x/testchain/types"
 )
 
 var _ = strconv.Itoa(0)

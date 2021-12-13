@@ -17,9 +17,9 @@ import (
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"githup.com/xiaka53/testchain/x/testchain/client/cli"
-	"githup.com/xiaka53/testchain/x/testchain/keeper"
-	"githup.com/xiaka53/testchain/x/testchain/types"
+	"github.com/xiaka53/testchain/x/testchain/client/cli"
+	"github.com/xiaka53/testchain/x/testchain/keeper"
+	"github.com/xiaka53/testchain/x/testchain/types"
 )
 
 var (

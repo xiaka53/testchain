@@ -86,11 +86,11 @@ import (
 	"github.com/tendermint/spm/cosmoscmd"
 	"github.com/tendermint/spm/openapiconsole"
 
-	"githup.com/xiaka53/testchain/docs"
+	"github.com/xiaka53/testchain/docs"
 
-	testchainmodule "githup.com/xiaka53/testchain/x/testchain"
-	testchainmodulekeeper "githup.com/xiaka53/testchain/x/testchain/keeper"
-	testchainmoduletypes "githup.com/xiaka53/testchain/x/testchain/types"
+	testchainmodule "github.com/xiaka53/testchain/x/testchain"
+	testchainmodulekeeper "github.com/xiaka53/testchain/x/testchain/keeper"
+	testchainmoduletypes "github.com/xiaka53/testchain/x/testchain/types"
 	// this line is used by starport scaffolding # stargate/app/moduleImport
 )
 

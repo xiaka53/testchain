@@ -5,7 +5,7 @@ import (
 
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/stretchr/testify/require"
-	"githup.com/xiaka53/testchain/testutil/sample"
+	"github.com/xiaka53/testchain/testutil/sample"
 )
 
 func TestMsgCreatePost_ValidateBasic(t *testing.T) {

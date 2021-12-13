@@ -12,8 +12,8 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmdb "github.com/tendermint/tm-db"
-	"githup.com/xiaka53/testchain/x/testchain/keeper"
-	"githup.com/xiaka53/testchain/x/testchain/types"
+	"github.com/xiaka53/testchain/x/testchain/keeper"
+	"github.com/xiaka53/testchain/x/testchain/types"
 )
 
 func TestchainKeeper(t testing.TB) (*keeper.Keeper, sdk.Context) {

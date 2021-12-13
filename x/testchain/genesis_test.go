@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	keepertest "githup.com/xiaka53/testchain/testutil/keeper"
-	"githup.com/xiaka53/testchain/x/testchain"
-	"githup.com/xiaka53/testchain/x/testchain/types"
+	keepertest "github.com/xiaka53/testchain/testutil/keeper"
+	"github.com/xiaka53/testchain/x/testchain"
+	"github.com/xiaka53/testchain/x/testchain/types"
 )
 
 func TestGenesis(t *testing.T) {

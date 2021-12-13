@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"githup.com/xiaka53/testchain/x/testchain/types"
+	"github.com/xiaka53/testchain/x/testchain/types"
 )
 
 type msgServer struct {

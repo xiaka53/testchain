@@ -11,7 +11,7 @@ import (
 	tmtypes "github.com/tendermint/tendermint/types"
 	tmdb "github.com/tendermint/tm-db"
 
-	"githup.com/xiaka53/testchain/app"
+	"github.com/xiaka53/testchain/app"
 )
 
 // New creates application instance with in-memory database and disabled logging.

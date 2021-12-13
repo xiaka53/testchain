@@ -2,8 +2,8 @@ package testchain
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"githup.com/xiaka53/testchain/x/testchain/keeper"
-	"githup.com/xiaka53/testchain/x/testchain/types"
+	"github.com/xiaka53/testchain/x/testchain/keeper"
+	"github.com/xiaka53/testchain/x/testchain/types"
 )
 
 // InitGenesis initializes the capability module's state from a provided genesis

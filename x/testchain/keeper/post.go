@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"githup.com/xiaka53/testchain/x/testchain/types"
+	"github.com/xiaka53/testchain/x/testchain/types"
 )
 
 func (k Keeper) AppendPost(ctx sdk.Context, post types.Post) uint64 {
