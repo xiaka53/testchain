@@ -95,7 +95,7 @@ import (
 )
 
 const (
-	AccountAddressPrefix = "ttd"
+	AccountAddressPrefix = "cosmos"
 	Name                 = "testchain"
 )
 

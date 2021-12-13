@@ -2,6 +2,7 @@ package keeper
 
 import (
 	"encoding/binary"
+
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/xiaka53/testchain/x/testchain/types"
@@ -16,7 +17,7 @@ func (k Keeper) AppendPost(ctx sdk.Context, post types.Post) uint64 {
 	bz := make([]byte, 8)
 	binary.BigEndian.PutUint64(bz, post.Id)
 	appendValue := k.cdc.MustMarshal(&post)
-	stores.Set(byteKey, appendValue)
+	stores.Set(bz, appendValue)
 	k.SetPostCount(ctx, count+1)
 	return count
 }
